@@ -1,0 +1,16 @@
+{
+  "name": "liveuamap-timelapse",
+  "version": "1.0.0",
+  "description": "Creates a timelapse of liveuamap.com since the beginning of the war in ukraine",
+  "main": "src/index.js",
+  "author": "Michael Firlus",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "puppeteer": "^19.1.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
